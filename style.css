@@ -128,3 +128,7 @@ html,body{
     margin: 0 auto;
     margin-top: 3vh;
 }
+
+.pietitulo, pie{
+    font-family: "inter";
+}
