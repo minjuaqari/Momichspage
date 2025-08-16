@@ -43,7 +43,7 @@ const observertexto2 = new IntersectionObserver((entries) => {
     }
   });
  },{
- threshold: 0.9,
+ threshold: 1,
  rootMargin: "0px 0px -240px 0px"
 });
 

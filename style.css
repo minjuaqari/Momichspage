@@ -129,7 +129,11 @@ html,body{
     margin-top: 3vh;
 }
 
-.pietitulo, pie{
+.pietitulo{
+    font-family: "inter";
+}
+
+.pie{
     font-family: "inter";
 }
 
@@ -215,4 +219,10 @@ margin-top: -20px;
 .textubi2{
     opacity: 1;
     transform: translateY(0);
+}
+
+.pie-linea{
+    height: 2px;
+    background-color: #6f6f6f;
+    border: none;
 }
