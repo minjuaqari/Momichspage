@@ -132,3 +132,87 @@ html,body{
 .pietitulo, pie{
     font-family: "inter";
 }
+
+.linea2{
+    margin-top: -25px;
+    width: 70%;
+    height: 2px;
+    background-color: black;
+    border: none;
+}
+
+.linea3{
+    margin-top: -25px;
+    width: 55%;
+    height: 2px;
+    background-color: black;
+    border: none;
+}
+
+.linea4{
+    margin-top: -25px;
+    width: 35%;
+    height: 2px;
+    background-color: black;
+    border: none;
+}
+
+.linea5{
+    margin-top: -25px;
+    width: 83%;
+    height: 2px;
+    background-color: black;
+    border: none;
+}
+
+.linea6{
+    margin-top: -25px;
+    width: 68%;
+    height: 2px;
+    background-color: black;
+    border: none;
+}
+
+.linerdovich{
+margin-top: -20px;
+    width: 45%;
+    height: 2px;
+    background-color: black;
+    border: none;
+  
+}
+
+.animacion{
+    height: 2px;
+    background-color: black;
+    border: none;
+    transform: scaleX(0);
+    transform-origin: right;
+    transition: transform 1s ease;
+}
+
+.linea-visible{
+    transform: scaleX(1);
+}
+
+.texto-animado{
+    opacity: 0;
+    transform: translateY(40px);
+    transition: all 1s ease;
+}
+
+.texto-visible{
+    opacity: 1;
+    transform: translateY(0);
+}
+
+.textubi{
+    opacity: 0;
+    transform: translateY(-40px);
+    transition: all 1s ease;
+}
+
+.textubi2{
+    opacity: 1;
+    transform: translateY(0);
+}
